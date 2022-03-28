@@ -19,15 +19,12 @@ Comments are used to document what your code is doing or potentially not doing s
 >>> #####           2. int
 >>> #####           3. float
 >>> #####           4. complex
-
 > ### 2. Booleans or bool
 >> a. True
 >> b. False
 >> c. None
-      
 > ### 3. Lists
->> a. Arrays
-          
+>> a. Arrays      
 > ### 4. Tuples
 > ### 5. Dictionaries
 > ### 6. Sets
@@ -37,7 +34,6 @@ Comments are used to document what your code is doing or potentially not doing s
 > ### 1. Command Line Input
 >> #### a. Input casting.
 >> #### b. Handling Errors from incorrect input types.
-      
 > ### 2. Command Line Output
 >> #### a. String Formatting
 
@@ -72,7 +68,6 @@ Comments are used to document what your code is doing or potentially not doing s
 >> #### d. html
 >> #### e. xml
 >> #### f. csv
-      
 > ### 2. File Output
 >> #### a. String Formatting
 >> #### b. json
