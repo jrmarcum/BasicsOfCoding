@@ -12,25 +12,25 @@ Comments are used to document what your code is doing or potentially not doing s
 
 ## Data Types
 
-###     1. Variables
-        a. #### Strings or str
-        b. #### Numbers
-            1. ##### bytes
-            2. ##### int
-            3. ##### float
-            4. ##### complex
-    2. ### Booleans or bool
+###    1. Variables
+        a. Strings or str
+####        b. Numbers
+#####           1. bytes
+#####           2. int
+#####           3. float
+#####           4. complex
+###    2. Booleans or bool
         a. True
         b. False
         c. None
       
-    3. ### Lists
-      a. Arrays
+###    3. Lists
+        a. Arrays
           
-    3. ### Tuples
-    4. ### Dictionaries
-    5. ### Sets
-    6. ### Frozen Set
+###    3. Tuples
+###    4. Dictionaries
+###    5. Sets
+###    6. Frozen Set
 
 ## Command Line Input and Output
     1. ### Command Line Input
