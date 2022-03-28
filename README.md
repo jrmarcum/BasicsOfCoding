@@ -11,13 +11,13 @@ Comments are used to document what your code is doing or potentially not doing s
 ## Operators
 
 ## Data Types
-*1. ### Variables
-*a. #### Strings or str
-*b. #### Numbers
-*(1) ##### bytes
-*(2) ##### int
-*(3) ##### float
-*(4) ##### complex
++ 1. ### Variables
++ a. #### Strings or str
++ b. #### Numbers
++ (1) ##### bytes
++ (2) ##### int
++ (3) ##### float
++ (4) ##### complex
         
   2. ### Booleans or bool
     - a. True
