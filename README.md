@@ -19,6 +19,7 @@ Comments are used to document what your code is doing or potentially not doing s
 >>> #####           2. int
 >>> #####           3. float
 >>> #####           4. complex
+
 > ### 2. Booleans or bool
 >> a. True
 >> b. False
