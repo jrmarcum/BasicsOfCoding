@@ -20,12 +20,12 @@ Comments are used to document what your code is doing or potentially not doing s
         (3) ##### complex
         
   2. ### Booleans or bool
-      a. True
-      b. False
-      c. None
+    -a. True
+    -b. False
+    -c. None
       
   4. ### Lists
-          a. Arrays
+      a. Arrays
           
   3. ### Tuples
   4. ### Dictionaries
