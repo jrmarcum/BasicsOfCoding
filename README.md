@@ -19,34 +19,34 @@ Comments are used to document what your code is doing or potentially not doing s
 >> d. dchar - UTF-32 code unit and Unicode code point
 >> ####        b. Numbers
 >>> #####           1. Number, number, numeric: stores numeric data with or without decimal
->>> #####           8. Int8, int8, i8,sbyte: stores numbers from -128 to 127 
->>> #####           9. Int16, int16, i16, Short, short: stores numbers from -32768 to +32767.
->>> #####          10. Int32, int32, i32, Int, int, Integer, integer: stores numbers from -2,147,483,648 to +2,147,483,647 
->>> #####          11. Int64, int64, i64, bigint, Long, long: stores numbers from -9223372036854775808 to +9223372036854775807
->>> #####          12. Int128, i128: stores numbers from −170,141,183,460,469,231,731,687,303,715,884,105,728 to +170,141,183,460,469,231,731,687,303,715,884,105,727
->>> #####          13. isize: same as i32 or i64 depending on computer architecture
->>> #####          14. uint: 0 to 4,294,967,295
->>> #####          15. UInt8, unint8, u8, ubyte, Byte, byte, bytes: stores numbers from 0 to 255
->>> #####          16. UInt16, unint16, u16, ushort: stores numbers from 0 to 65,535
->>> #####          17. UInt32, uint32, unint32, u32: stores numbers from 0 to 4294967295
->>> #####          18. UInt64, uint64, unint64, u64, ulong: stores numbers from 0 to 18,446,744,073,709,551,615
->>> #####          19. UInt128, u128: stores numbers from 0 to 340,282,366,920,938,463,463,374,607,431,768,211,455
->>> #####          20. usize: same as u32 or u64 depending on computer architecture
->>> #####          24. Real, real: either the largest floating point type that the hardware supports, or double; whichever is larger
->>> #####          25. Float, float: stores numbers from -1.5E−45 to +3.4E38 (6 digits of precision)
->>> #####          26. Float16: stores numbers from 5.96E−8 to 65504 (10 digits of precision)
->>> #####          26. Float32, float32, f32: stores numbers from -3.4E+38 to +3.4E+38 (23 digits of precision)  
->>> #####          27. Float64, float64, f64: stores number from -1.7E308 to +1.7E308  
->>> #####          28. decimal: stores numbers from -7.9E-28 to +7.9E28 (28 digits of precision)
->>> #####          29. Double, double: stores numbers from -5.0E−324 to +1.7E308 (15 digits of precision)
->>> #####          30. BigRational:  
->>> #####          31. Complex, complex: 
->>> #####          32. cfloat: complex number type made of two floats
->>> #####          33. cdouble: complex number type made of two doubles
->>> #####          34. creal: complex number type made of two reals 
->>> #####          35. ifloat: imaginary value type of float
->>> #####          36. idouble: imaginary value type of double
->>> #####          37. ireal: imaginary value type of real
+>>> #####           2. Int8, int8, i8,sbyte: stores numbers from -128 to 127 
+>>> #####           3. Int16, int16, i16, Short, short: stores numbers from -32768 to +32767.
+>>> #####           4. Int32, int32, i32, Int, int, Integer, integer: stores numbers from -2,147,483,648 to +2,147,483,647 
+>>> #####           5. Int64, int64, i64, bigint, Long, long: stores numbers from -9223372036854775808 to +9223372036854775807
+>>> #####           6. Int128, i128: stores numbers from −170,141,183,460,469,231,731,687,303,715,884,105,728 to +170,141,183,460,469,231,731,687,303,715,884,105,727
+>>> #####           7. isize: same as i32 or i64 depending on computer architecture
+>>> #####           8. uint: 0 to 4,294,967,295
+>>> #####           9. UInt8, unint8, u8, ubyte, Byte, byte, bytes: stores numbers from 0 to 255
+>>> #####          10. UInt16, unint16, u16, ushort: stores numbers from 0 to 65,535
+>>> #####          11. UInt32, uint32, unint32, u32: stores numbers from 0 to 4294967295
+>>> #####          12. UInt64, uint64, unint64, u64, ulong: stores numbers from 0 to 18,446,744,073,709,551,615
+>>> #####          13. UInt128, u128: stores numbers from 0 to 340,282,366,920,938,463,463,374,607,431,768,211,455
+>>> #####          14. usize: same as u32 or u64 depending on computer architecture
+>>> #####          15. Real, real: either the largest floating point type that the hardware supports, or double; whichever is larger
+>>> #####          16. Float, float: stores numbers from -1.5E−45 to +3.4E38 (6 digits of precision)
+>>> #####          17. Float16: stores numbers from 5.96E−8 to 65504 (10 digits of precision)
+>>> #####          18. Float32, float32, f32: stores numbers from -3.4E+38 to +3.4E+38 (23 digits of precision)  
+>>> #####          19. Float64, float64, f64: stores number from -1.7E308 to +1.7E308  
+>>> #####          20. decimal: stores numbers from -7.9E-28 to +7.9E28 (28 digits of precision)
+>>> #####          21. Double, double: stores numbers from -5.0E−324 to +1.7E308 (15 digits of precision)
+>>> #####          22. BigRational:  
+>>> #####          23. Complex, complex: 
+>>> #####          24. cfloat: complex number type made of two floats
+>>> #####          25. cdouble: complex number type made of two doubles
+>>> #####          26. creal: complex number type made of two reals 
+>>> #####          27. ifloat: imaginary value type of float
+>>> #####          28. idouble: imaginary value type of double
+>>> #####          29. ireal: imaginary value type of real
 > ### 2. Boolean, boolean, Bool, bool, Logical, logical:  
 >> a. True, true
 >> b. False, false
