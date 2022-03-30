@@ -73,16 +73,27 @@ Comments are used to document what your code is doing or potentially not doing s
 > ### 1. if
 > ### 2. if-else
 > ### 3. if-elif-else
-> ### 4. nested if, if-else, if-elif-else
 
 ## Iterative Statements
-> ### 1. for
-> ### 2. while
+> ###  1. for
+> ###  2. for-in
+> ###  3. for-of  
+> ###  3. for-each
+> ###  4. while
+> ###  5. while-let
+> ###  6. do
+> ###  7. do-while
+> ###  8. repeat-while
+> ###  9. repeat-until
+> ### 10. repeat-if
+> ### 10. loop
 
 ## Transfer Statements
 > ### 1. break
 > ### 2. continue
 > ### 3. pass
+> ### 4. goto
+> ### 5. fallthrough
 
 ## Classes
 
