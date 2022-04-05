@@ -13,13 +13,13 @@ Comments are used to document what your code is doing or potentially not doing s
 ## Data Types
 
 > ### 1. Variables
->> a. String, string, str - used for storing text and/or characters
+>> a. String, string, str: used for storing text and/or characters
 >> 
->> b. Char, char, Character, character - a single character/letter/number, or ASCII values, UTF-8 code unit
+>> b. Char, char, Character, character: a single character/letter/number, or ASCII values, UTF-8 code unit
 >> 
->> c. wchar - UTF-16 code unit
+>> c. wchar: UTF-16 code unit
 >> 
->> d. dchar - UTF-32 code unit and Unicode code point
+>> d. dchar: UTF-32 code unit and Unicode code point
 >> 
 >> ####        b. Numbers
 >>> #####           1. Number, number, numeric: stores numeric data with or without decimal
