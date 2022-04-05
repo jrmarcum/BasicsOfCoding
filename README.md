@@ -57,7 +57,7 @@ Comments are used to document what your code is doing or potentially not doing s
 
 ## Command Line Input and Output
 > ### 1. Command Line Input: program input from the user entered from the command line interface (CLI)
->> #### a. Input casting: type casting of input vairables for the purpose of processing the data with the appropriate data type
+>> #### a. Input casting: type casting of input variables for the purpose of processing the data with the appropriate data type
 >> #### b. Handling Errors from incorrect input types: Errors will occur from time to time when the data provided by the user is in the incorrect data type for the program to process the data. When errors occur the program will need instruction on what to do in that instance. Otherwise it will terminate with a warning or an error.
 > ### 2. Command Line Output: command line output will be in the form of numbers, strings, booleans and characters produced by a output keyword such as print, println, PrintLn!, console.log(), ConsoleWriteLine(), etc.
 >> #### a. String Formatting: strings can be formatted to produce a specific output format based upon numbers, strings, booleans and their presentation types
