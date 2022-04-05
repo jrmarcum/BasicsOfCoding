@@ -22,31 +22,31 @@ Comments are used to document what your code is doing or potentially not doing s
 >> d. **dchar**: UTF-32 code unit and Unicode code point
 >> 
 >> ####        b. Numbers
->>> #####           1. **Number, number, numeric**: stores numeric data with or without decimal
->>> #####           2. **Int8, int8, i8,sbyte**: stores positive or negative integers from -2^7 to (2^7)-1, with 3 significant figure precision
->>> #####           3. **Int16, int16, i16, Short, short**: stores positive or negative integers from -2^15 to (2^15)-1, with 5 significant figure precision
->>> #####           4. **Int32, int32, i32, Int, int, Integer, integer**: stores positive or negative integers from -2^31 to (2^31)-1, with 10 significant figure precision
->>> #####           5. **Int64, int64, i64, bigint, Long, long**: stores positive or negative integers from -2^63 to (2^63)-1, with 19 significant figure precision
->>> #####           6. **Int128, i128**: stores positive or negative integers from -2^127 to (2^127)-1, with 39 significant figure precision
->>> #####           7. **isize**: same as i32 or i64 depending on computer architecture
->>> #####           9. **UInt8, unint8, u8, ubyte, Byte, byte, bytes**: stores positive integers from 0 to (2^8)-1, with 3 significant figure precision
->>> #####          10. **UInt16, unint16, u16, ushort**: stores positive integers from 0 to (2^16)-1, with 5 significant figure precision
->>> #####          11. **UInt32, uint32, unint32, u32, uint**: stores positive integers from 0 to (2^32)-1, with 10 significant figure precision
->>> #####          12. **UInt64, uint64, unint64, u64, ulong**: stores positive integers from 0 to (2^64)-1, with 19 significant figure precision
->>> #####          13. **UInt128, u128**: stores positive integer numbers from 0 to (2^128)-1, with 39 significant figure precision
->>> #####          14. **usize**: same as u32 or u64 depending on computer architecture
->>> #####          15. **Real, real**: either the largest floating point type that the hardware supports, or double; whichever is larger
->>> #####          17. **Float16**: stores fractional numbers from -2^15 to (2^15)-1, with 5 significant figure precision
->>> #####          18. **Float32, float32, f32, Float, float**: stores fractional numbers from -2^31 to (2^31)-1, with 10 significant figure precision 
->>> #####          19. **Double, double, Float64, float64, f64**: stores fractional numbers from -2^63 to (2^63)-1, with 19 significant figure precision
->>> #####          20. **decimal**: stores numbers from -7.9E-28 to +7.9E28 (28 digits of precision)
->>> #####          22. **BigRational**: construction of number from an i32 numerator and i32 denominator
->>> #####          24. **Complex, complex, cfloat**: complex number type made of two floats
->>> #####          25. **cdouble**: complex number type made of two doubles
->>> #####          26. **creal**: complex number type made of two reals 
->>> #####          27. **ifloat**: imaginary value type of float
->>> #####          28. **idouble**: imaginary value type of double
->>> #####          29. **ireal**: imaginary value type of real
+>>> #####           1. *Number, number, numeric*: stores numeric data with or without decimal
+>>> #####           2. *Int8, int8, i8,sbyte*: stores positive or negative integers from -2^7 to (2^7)-1, with 3 significant figure precision
+>>> #####           3. *Int16, int16, i16, Short, short*: stores positive or negative integers from -2^15 to (2^15)-1, with 5 significant figure precision
+>>> #####           4. *Int32, int32, i32, Int, int, Integer, integer*: stores positive or negative integers from -2^31 to (2^31)-1, with 10 significant figure precision
+>>> #####           5. *Int64, int64, i64, bigint, Long, long*: stores positive or negative integers from -2^63 to (2^63)-1, with 19 significant figure precision
+>>> #####           6. *Int128, i128*: stores positive or negative integers from -2^127 to (2^127)-1, with 39 significant figure precision
+>>> #####           7. *isize*: same as i32 or i64 depending on computer architecture
+>>> #####           9. *UInt8, unint8, u8, ubyte, Byte, byte, bytes*: stores positive integers from 0 to (2^8)-1, with 3 significant figure precision
+>>> #####          10. *UInt16, unint16, u16, ushort*: stores positive integers from 0 to (2^16)-1, with 5 significant figure precision
+>>> #####          11. *UInt32, uint32, unint32, u32, uint*: stores positive integers from 0 to (2^32)-1, with 10 significant figure precision
+>>> #####          12. *UInt64, uint64, unint64, u64, ulong*: stores positive integers from 0 to (2^64)-1, with 19 significant figure precision
+>>> #####          13. *UInt128, u128*: stores positive integer numbers from 0 to (2^128)-1, with 39 significant figure precision
+>>> #####          14. *usize*: same as u32 or u64 depending on computer architecture
+>>> #####          15. *Real, real*: either the largest floating point type that the hardware supports, or double; whichever is larger
+>>> #####          17. *Float16*: stores fractional numbers from -2^15 to (2^15)-1, with 5 significant figure precision
+>>> #####          18. *Float32, float32, f32, Float, float*: stores fractional numbers from -2^31 to (2^31)-1, with 10 significant figure precision 
+>>> #####          19. *Double, double, Float64, float64, f64*: stores fractional numbers from -2^63 to (2^63)-1, with 19 significant figure precision
+>>> #####          20. *decimal*: stores numbers from -7.9E-28 to +7.9E28 (28 digits of precision)
+>>> #####          22. *BigRational*: construction of number from an i32 numerator and i32 denominator
+>>> #####          24. *Complex, complex, cfloat*: complex number type made of two floats
+>>> #####          25. *cdouble*: complex number type made of two doubles
+>>> #####          26. *creal*: complex number type made of two reals 
+>>> #####          27. *ifloat*: imaginary value type of float
+>>> #####          28. *idouble*: imaginary value type of double
+>>> #####          29. *ireal*: imaginary value type of real
 > ### 2. **Boolean, boolean, Bool, bool, Logical, logical**: values of True, true, False, false or None
 > ### 3. Lists
 >> a. Arrays      
