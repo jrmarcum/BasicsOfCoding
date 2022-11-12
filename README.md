@@ -1,4 +1,4 @@
-# Basics of Coding Grain
+# Basics of Coding
 ## Statements
 A statement is an instruction that a program can execute. They are usually made line by line in your coding file. Lines in your code can have multiple statements that are separated typically by semicolons.
 ## Comments
